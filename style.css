@@ -1,0 +1,148 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+background:#180028;
+font-family:'Poppins',sans-serif;
+color:white;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:300px;
+background:#12001f;
+min-height:100vh;
+padding:20px;
+position:fixed;
+border-right:2px solid #b100ff;
+}
+
+.profile-card{
+text-align:center;
+border:2px solid #b100ff;
+padding:20px;
+border-radius:20px;
+}
+
+.profile-card img{
+width:200px;
+height:250px;
+object-fit:cover;
+border-radius:20px;
+}
+
+.profile-card h2{
+margin-top:15px;
+font-family:'Orbitron',sans-serif;
+}
+
+nav ul{
+list-style:none;
+margin-top:30px;
+}
+
+nav ul li{
+margin:15px 0;
+}
+
+nav ul li a{
+text-decoration:none;
+display:block;
+padding:18px;
+background:#2b003d;
+border-radius:15px;
+color:white;
+font-size:20px;
+}
+
+.main-content{
+margin-left:320px;
+padding:20px;
+width:100%;
+}
+
+.top-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+border:2px solid #b100ff;
+padding:20px;
+border-radius:20px;
+}
+
+.top-header h1{
+font-family:'Orbitron',sans-serif;
+}
+
+.search-box{
+display:flex;
+}
+
+.search-box input{
+padding:15px;
+width:250px;
+border:none;
+outline:none;
+}
+
+.search-box button{
+width:70px;
+border:none;
+background:#ff7cff;
+cursor:pointer;
+}
+
+.section{
+margin-top:30px;
+padding:40px;
+background:#220033;
+border:2px solid #b100ff;
+border-radius:20px;
+}
+
+.section h2{
+margin-bottom:20px;
+font-family:'Orbitron',sans-serif;
+}
+
+.section p{
+font-size:20px;
+line-height:1.8;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill-card{
+background:#310045;
+padding:20px;
+text-align:center;
+border-radius:20px;
+}
+
+.skill-card img{
+width:80px;
+height:80px;
+object-fit:contain;
+}
+
+.certificate-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.certificate-grid img{
+width:100%;
+border-radius:15px;
+}
